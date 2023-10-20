@@ -3,7 +3,12 @@
     --uncblue: RGB(1,45,91);
     --uncgold: RGB(254,189,54);
     --uncgray: RGB(235,235,235);
-    color: var(--uncblue);
-    
+
     background-color:var(--uncgray)
 }
+h1
+{
+    font-size: 48px;
+    text-align: center;
+}
+
