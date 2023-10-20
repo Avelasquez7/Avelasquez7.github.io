@@ -53,6 +53,7 @@ h2 + p + a
 p
 {
     text-align: center;
+    display: block;
 }
 
 
