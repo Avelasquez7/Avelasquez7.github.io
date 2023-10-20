@@ -6,6 +6,13 @@
 
     background-color:var(--uncgray)
 }
+.title
+{
+  color: var(--uncgold);
+  font-size: 50pt;
+  text-decoration: underline;
+  text-align: center;
+}
 
 h1
 {
