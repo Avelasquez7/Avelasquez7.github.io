@@ -30,7 +30,7 @@ img
 ul li
 {
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 .footertext
@@ -49,6 +49,10 @@ h2 + p + a
 {
     text-align: center;
     display: block;
+}
+p
+{
+    text-align: center;
 }
 
 
