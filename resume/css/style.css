@@ -1,12 +1,13 @@
 :root
 {
-  --UNC-Blue: #013c65;
-  --UNC-Gold: #f6b000;
-  --UNC-Gray: #8a8a8d;
+  --UNC-Blue: rgb(1, 7, 11);
+  --UNC-Gold: #d3a531;
+  --UNC-Gray: #c2c2f5;
 }
 body
 {
     background-color: var(--UNC-Gray);
+    font-style: italic;
 }
 *
 {
@@ -15,7 +16,7 @@ body
 }
 h1
 {
-    font-size: calc(12pt + 4vw);
+    font-size: calc(14pt + 4vw);
 }
 nav
 {
