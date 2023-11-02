@@ -6,12 +6,12 @@
 }
 body
 {
-    background-color: var(--UNC-Gray);
+    background-color: rgb(237, 225, 240)136)7);
     font-style: italic;
 }
 *
 {
-    color: var(--UNC-Blue);
+    color: rgb(1,7,11);
     text-align: center;
 }
 h1
@@ -20,17 +20,17 @@ h1
 }
 nav
 {
-    border: 7px var(--UNC-Gold) solid;
+    border: 7px rgb(196, 145, 27) solid;
 }
 section
 {
-    border: 5px var(--UNC-Blue) solid;
+    border: 5px rgb(1,7,11) solid;
     margin: 5px;
     margin-top: 50px;
 }
 .date
 {
-    color: var(--UNC-Gold);
+    color: rgb(196,145,27);
 }
 ul
 {
