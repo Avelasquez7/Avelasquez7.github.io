@@ -20,7 +20,7 @@ h1
 }
 nav
 {
-    border: 7px var(--Gold) double;
+    border: 7px var(--Gold) solid;
 }
 section
 {
