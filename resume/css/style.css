@@ -1,8 +1,8 @@
 :root
 {
-  --UNC-Blue: #013c65;
-  --UNC-Gold: #f6b000;
-  --UNC-Gray: #8a8a8d;
+  --Dark: #0a2334;
+  --Gold: #e1b036;
+  --Light: #dcdcf2;
 }
 body
 {
@@ -15,17 +15,17 @@ body
 }
 h1
 {
-    font-size: calc(12pt + 4vw);
+    font-size: calc(14pt + 4vw);
 }
 nav
 {
-    border: 7px var(--UNC-Gold) solid;
+    border: 7px var(--UNC-Gold) double;
 }
 section
 {
-    border: 5px var(--UNC-Blue) solid;
-    margin: 5px;
-    margin-top: 50px;
+    border: 4px var(--UNC-Blue) double;
+    margin: 4px;
+    margin-top: 55px;
 }
 .date
 {
@@ -33,6 +33,6 @@ section
 }
 ul
 {
-    list-style: none;
+    list-style: circle;
     padding-left: 0px;
 }
