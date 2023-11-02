@@ -1,17 +1,17 @@
 :root
 {
-  --Dark: #0a2334;
-  --Gold: #e1b036;
-  --Light: #dcdcf2;
+  --Dark-Blue: #1e6290;
+  --Dark-Gold: #e1b036;
+  --Light-Purple: #dcdcf2;
 }
 body
 {
-    background-color: var(--Light);
+    background-color: var(--Light-Purple);
     font-style: italic;
 }
 *
 {
-    color: var(--Dark);
+    color: var(--Dark-Blue);
     text-align: center;
 }
 h1
@@ -20,17 +20,17 @@ h1
 }
 nav
 {
-    border: 7px var(--Gold) solid;
+    border: 7px var(--Dark-GoldGold) solid;
 }
 section
 {
-    border: 4px var(--Dark) double;
+    border: 4px var(--Dark-Blue) double;
     margin: 4px;
     margin-top: 55px;
 }
 .date
 {
-    color: var(--Gold);
+    color: var(--Dark-GoldGold);
 }
 ul
 {
