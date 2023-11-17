@@ -41,6 +41,7 @@ body
 h1
 {
     font-size: calc(12pt + 4vw);
+    text-align: center;
 }
 nav
 {
@@ -52,19 +53,10 @@ section
     margin: 5px;
     margin-top: 50px;
 }
-.date
-{
-    color: var(--UNC-Gold);
-}
 ul
 {
     list-style: none;
     padding-left: 0px;
 }
-li
-{
-    display: inline;
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
+
 
