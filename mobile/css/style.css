@@ -1,1 +1,39 @@
-
+:root
+{
+  --UNC-Blue: rgb(1, 7, 11);
+  --UNC-Gold: #d3a531;
+  --UNC-Gray: #f8f8fe;
+}
+body
+{
+    background-color: rgb(253, 249, 254)136)7);
+    font-style: italic;
+}
+*
+{
+    color: rgb(1,7,11);
+    text-align: center;
+}
+h1
+{
+    font-size: calc(14pt + 4vw);
+}
+nav
+{
+    border: 7px rgb(196, 145, 27) solid;
+}
+section
+{
+    border: 5px rgb(1,7,11) solid;
+    margin: 5px;
+    margin-top: 50px;
+}
+.date
+{
+    color: rgb(196,145,27);
+}
+ul
+{
+    list-style: circle;
+    padding-left: 0px;
+}
