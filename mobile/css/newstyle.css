@@ -41,3 +41,9 @@ img
 {
     border-radius: 50%;
 }
+li
+{
+    display: inline;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
