@@ -1,48 +1,25 @@
-:root
-{
-  --UNC-Blue: rgb(1, 7, 11);
-  --UNC-Gold: #d3a531;
-  --UNC-Gray: #f8f8fe;
+body {
+   font-family: Arial;
 }
-body
-{
-    background-color: var(--UNC-Gray);
+
+#container {
+   display: flex;
+   gap: 20px;
+   flex-direction: row-reverse;
+   justify-content: center;
+   flex-wrap: wrap;
 }
-*
-{
-    color: var(--UNC-Blue);
-    text-align: center;
+
+.photo {
+   padding: 10px;
+   box-shadow: 3px 3px 3px lightgray;
+   border: 1px solid lightgray;   
 }
-h1
-{
-    font-size: calc(12pt + 4vw);
+
+.photo img {
+   width: 200px;
 }
-nav
-{
-    border: 7px var(--UNC-Gold) solid;
-}
-section
-{
-    border: 5px var(--UNC-Blue) solid;
-    margin: 5px;
-    margin-top: 50px;
-}
-.date
-{
-    color: var(--UNC-Gold);
-}
-ul
-{
-    list-style: none;
-    padding-left: 0px;
-}
-li
-{
-    display: inline;
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-img
-{
-height: 350;
+
+.photo p {
+   text-align: center;
 }
