@@ -8,10 +8,6 @@ body
 {
     background-color: var(--UNC-Gray);
 }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 *
 {
     color: var(--UNC-Blue);
@@ -49,4 +45,12 @@ li
     display: inline;
     margin-left: 3vw;
     margin-right: 3vw;
+}
+h2
+{
+    font-size: calc(16pt + 4vw);
+}
+h3
+{
+    font-size: calc(16pt + 4vw);
 }
