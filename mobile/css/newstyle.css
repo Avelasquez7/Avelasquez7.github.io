@@ -36,10 +36,9 @@ ul
     list-style: none;
     padding-left: 0px;
 }
-}
-img
-{
-    border-radius: 50%;
+img {
+  width: 400px,
+  height: 300px
 }
 li
 {
