@@ -37,3 +37,7 @@ ul
     list-style: circle;
     padding-left: 0px;
 }
+table {
+   font-family: Arial;
+   border: 2px solid black;
+}
