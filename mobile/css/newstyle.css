@@ -36,21 +36,9 @@ ul
     list-style: none;
     padding-left: 0px;
 }
-img {
-  width: 150px,
-  height: 150px
-}
 li
 {
     display: inline;
     margin-left: 3vw;
     margin-right: 3vw;
-}
-h2
-{
-    font-size: calc(12pt + 4vw);
-}
-h3
-{
-    font-size: calc(12pt + 4vw);
 }
