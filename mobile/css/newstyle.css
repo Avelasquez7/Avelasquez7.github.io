@@ -6,38 +6,33 @@
 }
 body
 {
-    background-color: rgb(253, 249, 254)136)7);
-    font-style: italic;
+    background-color: var(--UNC-Gray);
 }
 *
 {
-    color: rgb(1,7,11);
+    color: var(--UNC-Blue);
     text-align: center;
 }
 h1
 {
-    font-size: calc(14pt + 4vw);
+    font-size: calc(12pt + 4vw);
 }
 nav
 {
-    border: 7px rgb(196, 145, 27) solid;
+    border: 7px var(--UNC-Gold) solid;
 }
 section
 {
-    border: 5px rgb(1,7,11) solid;
+    border: 5px var(--UNC-Blue) solid;
     margin: 5px;
     margin-top: 50px;
 }
 .date
 {
-    color: rgb(196,145,27);
+    color: var(--UNC-Gold);
 }
 ul
 {
-    list-style: circle;
+    list-style: none;
     padding-left: 0px;
-}
-table {
-   font-family: Arial;
-   border: 2px solid black;
 }
